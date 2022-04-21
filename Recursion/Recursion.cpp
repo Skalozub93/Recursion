@@ -60,16 +60,31 @@ using namespace std;
 //	return numb;
 //}
 
-//int Sum(int N, int number, int number2, int sum)
+//int Sum(int N)
 //{
+//	int number = 10, int number2 = 1, int sum = 0;
 //	sum += (N % number / number2);
 //	number2 = number;
 //	number *= number;
 //	if (N >= number2)
 //	{
-//		sum = Sum(N, number, number2, sum);
+//		sum = Sum(N);
 //	}
 //	return sum;
+//}
+
+//void reverse(int n)
+//{
+//	if (n % 10 == n)
+//	{
+//		cout << n;
+//		return;
+//	}
+//	else
+//	{
+//		cout << n % 10 << " ";
+//	}
+//	return reverse(n / 10);
 //}
 
 
@@ -106,6 +121,14 @@ int main()
 
 	cin >> N;
 
-	cout << Sum(N, number, number2, sum) << "\n";*/
+	cout << Sum(N) << "\n";*/
+
+	// TASK 5
+
+	/*int a;
+
+	cin >> a;
+
+	reverse(a);*/
 
 }
